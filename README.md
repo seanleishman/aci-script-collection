@@ -4,16 +4,17 @@ This repository contains a collection of Python scripts developed to automate an
 
 They are shared here for educational and demonstration purposes to showcase my experience working with Cisco ACI, REST APIs, and network automation. These are *not* official Cisco tools. Feel free to check them out and of course let me know if there are any questions or comments you may have.
 
-Please note that there is **no APIC / ACI Fabric** tied to these scripts, it is up to the user to setup their own testing fabric to run these against. There are no hard coded credentials, users are prompted for APIC username, password, and IP when running each script.
+Please note that there is **no APIC / ACI Fabric** tied to these scripts, it is up to the user to setup their own testing APIC & fabric to run these against. There are no hard coded credentials, users are prompted for APIC username, password, and IP when running each script.
 
 ---
 
 ## Features
 
 - APIC Authentication and Token Management
-- vPC Analysis
-- Conditional LLDP Interface Policy Group Disablement
-- Fabric Switch Bootflash Report
+- vPC/Port Channel VLAN Associtaion Report
+- vPC CDP & LLDP Neighbor Relationships Report
+- Conditional Interface Policy Group LLDP Disablement
+- ACI Fabric Switch Bootflash Report
 
 ---
 
